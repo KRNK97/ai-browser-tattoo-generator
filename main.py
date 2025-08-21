@@ -344,7 +344,7 @@ class TattooGenerator:
         response = self.generate_tattoo_prompts(summary)
         if not response:
             return
-        print(response, "((((())))))))))")
+            
         # Step 4: Extract prompts and track keywords
         print("\n📝 Extracting prompts for image generation...")
         image_prompts = self.extract_direct_prompts(response, summary)

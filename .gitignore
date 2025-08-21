@@ -210,3 +210,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# The pattern ".png" only matches a file literally named ".png" in the root directory.
+# To ignore all PNG files in the repository, use:
+*.png
